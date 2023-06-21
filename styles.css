@@ -64,14 +64,16 @@ body {
       }
     
     section {
-    width: 80%;
-    max-width: 600px;
     margin-top: 0; 
     margin-right: auto;     
     margin-left: auto;
     margin-bottom: 10px;
     }
 
+    #tribute-info {
+      width: 80%;
+      max-width: 800px;
+    }
 
     h2 {
     border-bottom: 4px solid #dfdfe2;
@@ -137,6 +139,11 @@ body {
         padding: 5px;
       }
 
+      .second{
+        width: 100%;
+        max-width: 1000px;
+      }
+
       .gallery{
         display: flex;
         flex-direction: row;
@@ -155,5 +162,8 @@ body {
         border-radius: 10px;
       }
 
+      .fold{
+        flex-wrap: wrap;
+      }
 
-
+    
